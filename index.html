@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Personal Portfolio</title>
+  <script src="https://kit.fontawesome.com/84417402b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav>
+              <img src="/assets/shibily.-removebg-preview.png" class="logo" >
+              <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#journal">Journal</a></li>
+                  <li><a href="#contact">Contact us</a></li>
+
+                  <i class="fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+
+              </ul>
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+
+          <div class="header-text">
+            <p>WEB/APP Developer,Designer</p>
+            <h1>Hi, I'am <span> Shibily</span> <br>From India</h1>
+          </div>
+
+        </div>
+    </div>
+
+
+    <!------------------- About section----------------- -->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="/assets/WhatsApp Image 2024-09-06 at 05.56.22_3ee63733.jpg" alt="">
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                  Hello! I'm a developer with a passion for building apps and websites. I work with Flutter, HTML, CSS, and JavaScript to create user-friendly and efficient digital experiences.
+                            <br>
+                  I've worked on various projects, including a fitness tracking app where users can log workouts and track progress, an e-commerce website with features like product browsing and secure checkout, and a weather app that provides real-time updates. I also built my own portfolio website to showcase what I do.
+                            <br>
+                  I love coding because it allows me to solve problems and bring ideas to life. My focus is on writing clean, efficient code and staying current with the latest trends in technology. I enjoy working with teams to create something great, and I’m always eager to learn and take on new challenges.
+                </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+
+                </div>
+
+                  <div class="tab-contents active-tab" id="skills">
+
+                      <ul>
+                        <li><span>Web Development</span> <br>Creating, Designing websites</li>
+                        <li><span>App Development</span> <br> Designing, Creating Mobile Applications </li>
+                        <li><span>UI/UX</span> <br> Designing Web/App interfaces</li>
+                      </ul>
+
+                  </div>
+                  <div class="tab-contents" id="experience">
+
+                    <ul>
+                      <li><span>Digital marketer</span> <br>Creating and executing Digital Marketing campaigns across social media,Email, and Search engine for 2 years</li>
+                      <li><span>App Development</span> <br> Designing, Creating Mobile Applications </li>
+                      
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+
+                  <ul>
+                    <li><span>Web Development</span> <br>Creating, Designing websites</li>
+                    <li><span>App Development</span> <br> Designing, Creating Mobile Applications </li>
+                    <li><span>UI/UX</span> <br> Designing Web/App interfaces</li>
+                  </ul>
+
+              </div>
+              <div class="tab-contents" id="projects">
+
+                <ul>
+                  <li><span>Netflix Clone</span> <br>Crafted a completly responsive netflix landing page clone</li>
+                  <li><span>Tesla clone</span> <br> made a responsive Tesla landing page</li>
+                </ul>
+
+            </div>
+
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------services----------------------- -->
+    
+    <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I craft visually stunning and user-friendly websites that bring your brand’s vision to life. My designs combine creativity with functionality to ensure an engaging and effective online presence. From sleek and modern to classic and elegant, I tailor each site to meet your unique needs and goals. Let’s create something exceptional together!</p>
+                <a href="#">Learn more</a>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web development</h2>
+                <p>I specialize in building robust, high-performance websites that turn your ideas into reality. From clean, efficient code to seamless functionality, I ensure that every site I develop is both reliable and scalable. Whether you need a custom solution, integration with existing systems, or a dynamic web application, I’m here to deliver top-notch results that meet your specific needs. Let’s bring your project to life with precision and expertise!</p>
+                <a href="#">Learn more</a>
+              </div>
+
+              <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I design intuitive and engaging mobile and web applications that enhance user experiences and drive interaction. My approach combines sleek, modern aesthetics with practical functionality, ensuring that every app not only looks great but also performs seamlessly. From user interfaces to interactive elements, I focus on creating designs that are both visually appealing and user-centric. Let’s collaborate to design an app that stands out and meets your users’ needs!</p>
+                <a href="#">Learn more</a>
+              </div>
+              
+              <div>
+                <i class="fa-solid fa-clone"></i>
+                <h2>App development</h2>
+                <p>I build cutting-edge mobile and web applications that deliver performance, reliability, and exceptional user experiences. From concept to deployment, I handle all aspects of app development, including coding, testing, and optimization. Whether you need a custom solution, integration with existing systems, or a new feature, I focus on creating apps that are both functional and scalable. Let’s turn your ideas into a powerful and efficient app!</p>
+                <a href="#">Learn more</a>
+              </div>
+
+              
+
+          </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------portfolio--------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          
+            <div class="work">
+                <img src="/assets/com.netflix.mediaclient.jpg" alt="">
+                <div class="layer">
+                    <h3>NetFlix Clone</h3>
+                    <p>
+                      A responsive Netflix homepage clone using HTML, CSS, featuring a movie carousel and hover effects.
+                    </p>
+                    <a href="https://github.com/shiblymohammed/NetFlixResponsive"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="/assets/f5c455b5a2f14dcd836618ef35fc6a7b.webp" alt="">
+                  <div class="layer">
+                      <h3>Tesla Clone</h3>
+                      <p>
+                        A responsive Tesla homepage clone using HTML, CSS, featuring  hover effects.
+                      </p>
+                      <a href="https://github.com/topics/tesla-clone"><i class="fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+            </div>
+
+            <div class="work">
+
+                <img src="/assets/work-3.png" alt="">
+
+                <div class="layer">
+                    <h3>Ecommerce App</h3>
+                    <p>
+                      The app connects you to the talented people around the world.
+                      Download it from google play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+
+            <div class="work">
+
+                <img src="/assets/work-1.png" alt="">
+
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <p>
+                      The app connects you to the talented people around the world.
+                      Download it from google play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+         <a href="https://github.com/shiblymohammed" class="btn">See more</a>
+
+      </div>
+    </div>
+
+    <!-- ---------------------Journal-------------- -->
+   
+    <div id="journal">
+      <div class="container">
+          <div class="row">
+            
+            <div class="about-col-2">
+              <h1 class="sub-title">My journal</h1>
+              <br>
+            
+              <h1>How It All Began</h1>
+              <p>I started my coding journey with the basics, learning C and Java to get a grip on programming fundamentals. After that, I dove into web development, starting with HTML, CSS, and JavaScript. These were pretty straightforward to pick up, but I wanted to build something more complex, which led me to Bootstrap. It made designing responsive websites so much easier and allowed me to create more professional-looking projects without starting from scratch.</p>
+                           <br>
+              <h1>Building Projects</h1>
+              <p>To put my new skills to the test, I decided to create two exciting projects: a Tesla homepage clone and a Netflix clone. Both of these projects were great learning experiences:
+
+                Tesla Clone: I built the Tesla homepage using HTML, CSS, and Bootstrap, focusing on replicating the sleek design and smooth layout. It was my first real dive into responsive web design, where I learned how to use media queries to make sure the layout looked perfect on any screen size.
+                
+                Netflix Clone: This project was a little more challenging. I used Bootstrap for the layout and JavaScript to add interactivity, like a movie carousel and hover effects. It really pushed me to understand responsive design and how different devices display content.
+                
+                Both of these projects helped me understand how to structure websites efficiently and how to ensure they look great across different devices. Bootstrap’s grid system and media queries were key to making everything fit properly, and I spent a lot of time figuring out how to fine-tune those elements.
+              </p>
+              <br>
+
+              <h1>Learning to Adapt with Media Queries</h1>
+              <p>While working on these projects, I realized how important media queries are for web development. It’s not enough to just build something that works on one device; I had to think about how users would see it on their phones, tablets, and desktops. At first, I struggled with getting the layout to adapt correctly, but with practice, I got better at writing the right queries to adjust the design. Now, I feel confident using them to make any website responsive.</p>
+                   <br>
+
+                   <h1>Transition to Flutter</h1>
+                   <p>Once I got comfortable with web development, I wanted to try something new, so I moved into Flutter for mobile app development. Flutter feels different from web development because everything is built with widgets. Learning Dart as the primary language for Flutter has been a challenge, but my experience with Java has made it a bit easier to pick up.
+
+                    I’ve just started working with Flutter widgets and learning how to manage the app’s layout. It’s been exciting to see how mobile apps come together, and I’m slowly figuring out how to manage state and use navigation within an app.</p>
+                       <br><br>
+
+                       <h1 style="color: #ff004f;">Looking Forward</h1>
+                       <p>As I continue this journey, I’m excited about where it’s heading. My web development projects taught me the importance of responsive design, and now I’m applying that same mindset to mobile apps with Flutter. Every day I learn something new, and I’m looking forward to building more projects, refining my skills, and seeing what I can create next.
+
+                        The more I code, the more confident I become—and I know this is just the beginning.</p>
+
+
+                        <br>
+                        <br>
+
+
+            </div>
+          </div>
+      </div>
+  </div>
+   
+
+
+
+    <!-- ------------------------------------------- -->
+
+    <!-- -----------------Contact------------------- -->
+
+
+    <div id="contact">
+       <div class="container">
+          <div class="row">
+
+             <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>shibilymohammed75@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +918590313639</p>
+                <!---------------------- social media icons link ----------------------------------->
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/shyblee/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                 <a href="/assets/my-cv.pdf" class="btn btn2">Download CV</a>
+
+             </div>
+             <!--------------------------------- conntact form--------------------------------- -->
+             <div class="contact-right">
+                
+               <form name="submit-to-google-sheet">
+                 <input type="text" name="Name" placeholder="Your Name" required>
+                 <input type="email" name="Email" placeholder="Your Email" required>
+                 <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                 <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+             </div>
+
+          </div>
+       </div>
+
+      
+
+
+    </div>
+
+
+   <script src="script.js"></script>
+   
+</body>
+</html>
